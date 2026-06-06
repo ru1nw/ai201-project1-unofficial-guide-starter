@@ -51,11 +51,11 @@ Students usually have their own quiet spots that are not well known, and the wel
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:**
+**Chunk size:** 256 tokens
 
-**Overlap:**
+**Overlap:** 50 tokens
 
-**Reasoning:**
+**Reasoning:** Reddit comments and Google Maps reviews are usually only a few sentences long, so short tokens is enough to cover most comments/reviews. Tokens too long might get mixed up with other comments and will introduce unnecessary contexts.
 
 ---
 
@@ -67,11 +67,17 @@ Students usually have their own quiet spots that are not well known, and the wel
      would you weigh in choosing a different embedding model — context length, multilingual
      support, accuracy on domain-specific text, latency? -->
 
-**Embedding model:**
+**Embedding model:** all-MiniLM-L6-v2
 
-**Top-k:**
+**Top-k:** k=5
 
 **Production tradeoff reflection:**
+
+The current approach prioritizes speed and cost efficiency over maximum retrieval quality. The main risk is missing nuanced context in informal language.
+
+Upgrading the embedding model to all-mpnet-base-v2 or nomic-embed-text-v1 (768 dimensions) to improve retrieval precision on domain-specific language. Reddit and review text use informal vernacular, slang, and product-specific terminology that smaller models may miss. A larger model would reduce false positives (retrieving tangentially related chunks) and improve ranking of truly relevant content.
+
+Increasing k to 7–10 if retrieval latency isn't critical, to provide more context diversity to the LLM. This helps when synthesizing summaries across multiple reviews or when a single chunk lacks sufficient detail.
 
 ---
 
@@ -98,9 +104,9 @@ Students usually have their own quiet spots that are not well known, and the wel
      Consider: noisy or inconsistent documents, missing source attribution, off-topic
      retrieval, chunks that split key information across boundaries. -->
 
-1.
+1. Some joke Reddit comments might make their way into the answers.
 
-2.
+2. Some longer comments/reviews might get chunked off.
 
 ---
 
@@ -111,6 +117,19 @@ Students usually have their own quiet spots that are not well known, and the wel
      Label each stage with the tool or library you're using.
      You can use ASCII art, a Mermaid diagram, or embed a sketch as an image.
      You'll use this diagram as context when prompting AI tools to implement each stage. -->
+
+```
+[Ingestion] plain text files in /documents copied from websites
+     ↓
+[Chunking] Python `str` methods
+     ↓
+[Embedding & Storage] sentence-transformers + chromadb
+     ↓
+[Retrieval] chromadb
+     ↓
+[Generation] Groq
+
+```
 
 ---
 
@@ -128,6 +147,12 @@ Students usually have their own quiet spots that are not well known, and the wel
 
 **Milestone 3 — Ingestion and chunking:**
 
+I'll give Claude my Chunking Strategy section and ask it to implement `chunk_text()` with my specified chunk size and overlap.
+
 **Milestone 4 — Embedding and retrieval:**
 
+I'll give Claude my Retrieval Approach section and ask it to embed chunks and implement store and retrieve using Chroma.
+
 **Milestone 5 — Generation and interface:**
+
+I'll ask Claude to implement `generate_response()` with Groq. I'll give Claude the desired interface and ask it to implement it with Gradio web UI.
