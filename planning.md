@@ -11,6 +11,10 @@
 
 <!-- What domain did you choose? Why is this knowledge valuable and hard to find through official channels? -->
 
+**Good spots to study around Georgia Tech campus.**
+
+Students usually have their own quiet spots that are not well known, and the well known places are always so packed that students develop strategies to combat that. Study places are also not well documented since most buildings have nooks of tables and chairs that aren't advertised.
+
 ---
 
 ## Documents
@@ -20,16 +24,23 @@
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | | | |
-| 2 | | | |
-| 3 | | | |
-| 4 | | | |
-| 5 | | | |
-| 6 | | | |
-| 7 | | | |
-| 8 | | | |
-| 9 | | | |
-| 10 | | | |
+| 1 | what are the best study spots at georgia tech? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/1n7r08d |
+| 2 | what are the best study spots around campus? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/19eltzk |
+| 3 | Best place to study on campus? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/xpktnk |
+| 4 | Any study spots with standing desks on campus? : r/gatech | on-campus study spots with standing desks | https://www.reddit.com/r/gatech/comments/sp7civ |
+| 5 | Quietest place to study on campus? : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/160e12g |
+| 6 | Quiet places to take a midterm on campus tonight : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/1140r0b |
+| 7 | Any Good Libraries or Quiet Place to study? : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/u8ro4u |
+| 8 | Classroom Building Access After Hours : r/gatech | after-hours building access | https://www.reddit.com/r/gatech/comments/125tj64 |
+| 9 | good places to study off-campus in tech square? : r/gatech | off-campus study spots | https://www.reddit.com/r/gatech/comments/nhf3c2 |
+| 10 | StudyHive: Your Guide to Study Spots On-and-Off Campus! – Student Government Association | on- and off-campus study spots | https://www.sga.gatech.edu/studyhive-a-guide-to-study-spots-on-and-off-campus/ |
+| 11 | Google Maps | reviews for Klaus | https://maps.app.goo.gl/cT5JGKzFWENGkT7U9 |
+| 12 | Google Maps | reviews for library | https://maps.app.goo.gl/8qZziapxAQHd5kHu9 |
+| 13 | Google Maps | reviews for Crosland Tower | https://maps.app.goo.gl/WLJZPrxu64HiiYZ79 |
+| 14 | Google Maps | reviews for Price Gilbert | https://maps.app.goo.gl/eFjXr8g7WX3SxZXo7 |
+| 15 | Google Maps | reviews for student center | https://maps.app.goo.gl/qqWTUbSK1KP7FTeKA |
+| 16 | Google Maps | reviews for Clough (CULC) | https://maps.app.goo.gl/7QLHJqTMNs1EUepf9 |
+| 17 | Google Maps | reviews for Kendeda | https://maps.app.goo.gl/Dfc8FQ9CBGoWUGCaA |
 
 ---
 
@@ -73,11 +84,11 @@
 
 | # | Question | Expected answer |
 |---|----------|-----------------|
-| 1 | | |
-| 2 | | |
-| 3 | | |
-| 4 | | |
-| 5 | | |
+| 1 | Who can enter CODA? | Graduate/PhD students and students who have review session/office hours there. |
+| 2 | What are the quiet floors in Croland Tower? | 6th and 7th floor. |
+| 3 | What do students say about Klaus? | It's usually quiet with hidden study spots. |
+| 4 | Tell me about reserving rooms. | Rooms in Crosland, Price Gilbert library, and CULC can be reserved for a couple hours. However, they can also be accessed when it's not reserved. |
+| 5 | Is student center noisy? | Yes, stay away if you want a quiet place to study, especially during mid-day. |
 
 ---
 

@@ -14,6 +14,10 @@
      Example: "Student reviews of CS professors at [university] — useful because official
      course descriptions don't reflect teaching style, exam difficulty, or workload." -->
 
+**Good spots to study around Georgia Tech campus.**
+
+Students usually have their own quiet spots that are not well known, and the well known places are always so packed that students develop strategies to combat that. Study places are also not well documented since most buildings have nooks of tables and chairs that aren't advertised.
+
 ---
 
 ## Document Sources
