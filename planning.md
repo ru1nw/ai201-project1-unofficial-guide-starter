@@ -24,15 +24,15 @@ Students usually have their own quiet spots that are not well known, and the wel
 
 | # | Source | Description | URL or location |
 |---|--------|-------------|-----------------|
-| 1 | what are the best study spots at georgia tech? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/1n7r08d |
-| 2 | what are the best study spots around campus? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/19eltzk |
-| 3 | Best place to study on campus? : r/gatech | best on-campus study spots | https://www.reddit.com/r/gatech/comments/xpktnk |
-| 4 | Any study spots with standing desks on campus? : r/gatech | on-campus study spots with standing desks | https://www.reddit.com/r/gatech/comments/sp7civ |
-| 5 | Quietest place to study on campus? : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/160e12g |
-| 6 | Quiet places to take a midterm on campus tonight : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/1140r0b |
-| 7 | Any Good Libraries or Quiet Place to study? : r/gatech | quiet on-campus spots | https://www.reddit.com/r/gatech/comments/u8ro4u |
-| 8 | Classroom Building Access After Hours : r/gatech | after-hours building access | https://www.reddit.com/r/gatech/comments/125tj64 |
-| 9 | good places to study off-campus in tech square? : r/gatech | off-campus study spots | https://www.reddit.com/r/gatech/comments/nhf3c2 |
+| 1 | what are the best study spots at georgia tech? : r/gatech | best on-campus study spots | https://redd.it/1n7r08d |
+| 2 | what are the best study spots around campus? : r/gatech | best on-campus study spots | https://redd.it/19eltzk |
+| 3 | Best place to study on campus? : r/gatech | best on-campus study spots | https://redd.it/xpktnk |
+| 4 | Any study spots with standing desks on campus? : r/gatech | on-campus study spots with standing desks | https://redd.it/sp7civ |
+| 5 | Quietest place to study on campus? : r/gatech | quiet on-campus spots | https://redd.it/160e12g |
+| 6 | Quiet places to take a midterm on campus tonight : r/gatech | quiet on-campus spots | https://redd.it/1140r0b |
+| 7 | Any Good Libraries or Quiet Place to study? : r/gatech | quiet on-campus spots | https://redd.it/u8ro4u |
+| 8 | Classroom Building Access After Hours : r/gatech | after-hours building access | https://redd.it/125tj64 |
+| 9 | good places to study off-campus in tech square? : r/gatech | off-campus study spots | https://redd.it/nhf3c2 |
 | 10 | StudyHive: Your Guide to Study Spots On-and-Off Campus! – Student Government Association | on- and off-campus study spots | https://www.sga.gatech.edu/studyhive-a-guide-to-study-spots-on-and-off-campus/ |
 | 11 | Google Maps | reviews for Klaus | https://maps.app.goo.gl/cT5JGKzFWENGkT7U9 |
 | 12 | Google Maps | reviews for library | https://maps.app.goo.gl/8qZziapxAQHd5kHu9 |
