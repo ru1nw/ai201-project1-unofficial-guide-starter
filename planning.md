@@ -123,7 +123,7 @@ Increasing k to 7–10 if retrieval latency isn't critical, to provide more cont
      ↓
 [Chunking] Python `str` methods
      ↓
-[Embedding & Storage] sentence-transformers + chromadb
+[Embedding & Storage] chromadb
      ↓
 [Retrieval] chromadb
      ↓
