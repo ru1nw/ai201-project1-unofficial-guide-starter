@@ -51,11 +51,11 @@ Students usually have their own quiet spots that are not well known, and the wel
      numbers fit the structure of your documents.
      A review-heavy corpus warrants different chunking than a long FAQ. -->
 
-**Chunk size:** 256 tokens
+**Chunk size:** 1 paragraph
 
-**Overlap:** 50 tokens
+**Overlap:** 0
 
-**Reasoning:** Reddit comments and Google Maps reviews are usually only a few sentences long, so short tokens is enough to cover most comments/reviews. Tokens too long might get mixed up with other comments and will introduce unnecessary contexts.
+**Reasoning:** Reddit comments and Google Maps reviews are usually short sentences, so I separate them into paragraphs. Chunks too large might mix up comments and will introduce unnecessary contexts.
 
 ---
 
