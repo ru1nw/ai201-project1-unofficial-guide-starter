@@ -95,6 +95,17 @@ def chunk_document(doc: dict) -> list[dict]:
         header = paragraphs[0]
         paragraphs = [f"{header}: {p}" for p in paragraphs[1:]]
 
+    # SGA web document: each paragraph starts with a location name on
+    # its own line. Reformat as "Location: content" so the location
+    # label is explicitly attached to the chunk, consistent with the
+    # google_maps prefix style.
+    elif doc["source_type"] == "web":
+        formatted = []
+        for para in paragraphs:
+            location, _, content = para.partition("\n")
+            formatted.append(f"{location}: {content}" if content else para)
+        paragraphs = formatted
+
     return [
         {
             "id": f"{doc['id']}_chunk_{i}",
@@ -113,7 +124,7 @@ def embed_and_store(chunks: list[dict]) -> chromadb.Collection:
     Uses upsert() so the function is safe to call multiple times -
     re-running the pipeline won't raise duplicate-ID errors.
 
-    Returns the collection, ready to pass directly to retrieve().
+    Returns the collection.
     """
     _collection.upsert(
         ids=[c["id"] for c in chunks],
@@ -200,9 +211,8 @@ def generate_response(query: str, chunks: list[dict]) -> str:
 
 
 def _init_collection():
-    global _collection
     chunks = [c for d in load_documents() for c in chunk_document(d)]
-    _collection = embed_and_store(chunks)
+    embed_and_store(chunks)
     print(f"Ingestion complete. {len(chunks)} chunks stored.")
 
 
@@ -214,12 +224,15 @@ def ask(question: str) -> dict:
 
     Returns:
       answer  --  the LLM response with inline source citations
-      sources --  deduplicated list of retrieved source filenames
+      sources --  list of source filenames that were retrieved
     """
     if ((not isinstance(_collection, chromadb.Collection)) or
         (_collection.count() == 0)):
+        print("initializing collection")
         _init_collection()
     chunks = retrieve(question)
     answer = generate_response(question, chunks)
-    sources = list(dict.fromkeys(c["source"] for c in chunks))
+    sources = [
+        f"[{c['distance']:.4f}] ({c['source']}) {c['text']}" for c in chunks
+    ]
     return {"answer": answer, "sources": sources}
