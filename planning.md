@@ -91,7 +91,7 @@ Increasing k to 7–10 if retrieval latency isn't critical, to provide more cont
 | # | Question | Expected answer |
 |---|----------|-----------------|
 | 1 | Who can enter CODA? | Graduate/PhD students and students who have review session/office hours there. |
-| 2 | What are the quiet floors in Croland Tower? | 6th and 7th floor. |
+| 2 | What are the quiet floors in Croland? | 6th and 7th floor. |
 | 3 | What do students say about Klaus? | It's usually quiet with hidden study spots. |
 | 4 | Tell me about reserving rooms. | Rooms in Crosland, Price Gilbert library, and CULC can be reserved for a couple hours. However, they can also be accessed when it's not reserved. |
 | 5 | Is student center noisy? | Yes, stay away if you want a quiet place to study, especially during mid-day. |
