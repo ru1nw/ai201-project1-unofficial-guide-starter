@@ -34,13 +34,13 @@ Students usually have their own quiet spots that are not well known, and the wel
 | 8 | Classroom Building Access After Hours : r/gatech | after-hours building access | https://redd.it/125tj64 |
 | 9 | good places to study off-campus in tech square? : r/gatech | off-campus study spots | https://redd.it/nhf3c2 |
 | 10 | StudyHive: Your Guide to Study Spots On-and-Off Campus! – Student Government Association | on- and off-campus study spots | https://www.sga.gatech.edu/studyhive-a-guide-to-study-spots-on-and-off-campus/ |
-| 11 | Google Maps | reviews for Klaus | https://maps.app.goo.gl/cT5JGKzFWENGkT7U9 |
-| 12 | Google Maps | reviews for library | https://maps.app.goo.gl/8qZziapxAQHd5kHu9 |
-| 13 | Google Maps | reviews for Crosland Tower | https://maps.app.goo.gl/WLJZPrxu64HiiYZ79 |
-| 14 | Google Maps | reviews for Price Gilbert | https://maps.app.goo.gl/eFjXr8g7WX3SxZXo7 |
-| 15 | Google Maps | reviews for student center | https://maps.app.goo.gl/qqWTUbSK1KP7FTeKA |
-| 16 | Google Maps | reviews for Clough (CULC) | https://maps.app.goo.gl/7QLHJqTMNs1EUepf9 |
-| 17 | Google Maps | reviews for Kendeda | https://maps.app.goo.gl/Dfc8FQ9CBGoWUGCaA |
+| 11 | Klaus Advanced Computing Building - Google Maps | Google Maps reviews for Klaus | https://maps.app.goo.gl/cT5JGKzFWENGkT7U9 |
+| 12 | Georgia Tech Library - Google Maps | Google Maps reviews for library | https://maps.app.goo.gl/8qZziapxAQHd5kHu9 |
+| 13 | Crosland Tower - Google Maps | Google Maps reviews for Crosland Tower | https://maps.app.goo.gl/WLJZPrxu64HiiYZ79 |
+| 14 | Price Gilbert Memorial Library - Google Maps | Google Maps reviews for Price Gilbert | https://maps.app.goo.gl/eFjXr8g7WX3SxZXo7 |
+| 15 | John Lewis Student Center - Google Maps | Google Maps reviews for student center | https://maps.app.goo.gl/qqWTUbSK1KP7FTeKA |
+| 16 | Clough Undergraduate Learning Commons - Google Maps | Google Maps reviews for Clough (CULC) | https://maps.app.goo.gl/7QLHJqTMNs1EUepf9 |
+| 17 | Kendeda Building - Google Maps | Google Maps reviews for Kendeda | https://maps.app.goo.gl/Dfc8FQ9CBGoWUGCaA |
 
 ---
 
@@ -91,8 +91,8 @@ Increasing k to 7–10 if retrieval latency isn't critical, to provide more cont
 | # | Question | Expected answer |
 |---|----------|-----------------|
 | 1 | Who can enter CODA? | Graduate/PhD students and students who have review session/office hours there. |
-| 2 | What are the quiet floors in Croland? | 6th and 7th floor. |
-| 3 | What do students say about Klaus? | It's usually quiet with hidden study spots. |
+| 2 | What are the quiet floors in Crosland? | 6th and 7th floor. |
+| 3 | What do students say about study spots in Klaus? | It's usually quiet with hidden study spots. |
 | 4 | Tell me about reserving rooms. | Rooms in Crosland, Price Gilbert library, and CULC can be reserved for a couple hours. However, they can also be accessed when it's not reserved. |
 | 5 | Is student center noisy? | Yes, stay away if you want a quiet place to study, especially during mid-day. |
 
